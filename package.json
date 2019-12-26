@@ -1,0 +1,23 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uniqueayo1988/waether-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uniqueayo1988/waether-app/issues"
+  },
+  "homepage": "https://github.com/uniqueayo1988/waether-app#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
