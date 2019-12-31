@@ -11,7 +11,9 @@ const geocodeAddress = (address, callback) => {
     if (error) {
       callback('Unable to connect to google servers')
     } else if (body.status === 'ZERO_RESULTS') {
-      callback('Unable to find that address')
+      callback('Unable to find that address') 
+    } else if (body.status === 'REQUEST_DENIED') {
+      callback('You are not authorised to make this request')
     } else if (body.status === 'OK') {
       callback(undefined, {
         address: body.results[0].formatted_address,
